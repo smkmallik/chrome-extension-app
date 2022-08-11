@@ -1,0 +1,41 @@
+.weather-wrapper {
+  font-size: 2rem;
+  text-align: right;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.temp-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.city-search {
+  display: block;
+  font-size: 1.75rem;
+  width: 15rem;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+.city-search::placeholder {
+  color: white;
+}
+.weather-wrapper button {
+  background-color: transparent;
+  border: none;
+  color: rgb(211, 211, 211);
+  text-align: end;
+  margin-top: 5px;
+}
+.weather-wrapper button:hover {
+  cursor: pointer;
+  color: #16a34a;
+}

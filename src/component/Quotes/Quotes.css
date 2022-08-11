@@ -1,0 +1,18 @@
+.quotes {
+  position: absolute;
+  bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 35ch;
+}
+.quote-text {
+  font-size: 2rem;
+  color: white;
+}
+
+.quote-author {
+  font-size: 1.5rem;
+  color: white;
+  font-style: italic;
+}
